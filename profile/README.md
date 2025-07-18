@@ -72,15 +72,3 @@ For example, the Files Server is running on your computer which has a folder wit
 This is a server that runs the Web version of the TunerHammer Player. It also must be connected to the TunerHammer API.
 
 Once connected to the API, it serves a Web App which has all the functions of a native TunerHammer Player.
-
-## Pricing
-
-TunerHammer is a free and open source software (FOSS). You're supposed to self-host it.
-
-It **won't** have any price tag by itself.
-
-You'll be able to use public TunerHammer API and Web App Server for free. Attention though: Files Server is required to actually host any music files so you must own a PC that's always connected to the Internet and can store all your music.
-
-The only ways to pay for the project are:
-  - Use pre-hosted Files Server (1 month trial with storage up to 1 GB, then pricing depends on the selected storage amount). Pre-hosted servers don't differ from the ones you can host yourself.
-  - Donations.
