@@ -38,7 +38,7 @@ TunerHammer will support these platforms:
 - **Android TV**
   * Native player for Android TV boxes
 
-More platforms might be added later. Implementing TunerHammer player on any platform must be easy: you just call TunerHammer Client Core functions from the bare music player interface.
+More platforms might be added later. Implementing TunerHammer Player on any platform must be easy: you just call TunerHammer Client Core functions from the bare music player interface.
 
 ## Parts
 
