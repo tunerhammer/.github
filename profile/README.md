@@ -21,10 +21,10 @@ TunerHammer will support these platforms:
   * Online player accessible anywhere
 - **Windows**
   * Native player for Windows PCs
-  * TunerHammer Files Server
+  * TunerHammer File Server
 - **macOS**
   * Native player for Macs
-  * TunerHammer Files Server
+  * TunerHammer File Server
 - **Linux**
   * Electron-based player (copies UI from Web version, implements native functions)
   * TunerHammer Files Server (CLI version)
@@ -59,13 +59,13 @@ This is the central TunerHammer server. All Players and File / Web App Servers m
 
 It doesn't actually serve any music files itself: it just centralizes all the communications in one place.
 
-### TunerHammer Files Server
+### TunerHammer File Server
 
 This is a program that you run on your PC (or NAS) which must be connected to the TunerHammer API.
 
 Once connected to the API, it hosts a folder to be accessible from the API.
 
-For example, the Files Server is running on your computer which has a folder with all your music. The Files Server program connects to the API. TunerHammer Player also connects to the API and is now able to play music from your computer.
+For example, the File Server is running on your computer which has a folder with all your music. The File Server program connects to the API. TunerHammer Player also connects to the API and is now able to play music from your computer.
 
 ### TunerHammer Web App Server
 
