@@ -27,7 +27,7 @@ TunerHammer will support these platforms:
   * TunerHammer File Server
 - **Linux**
   * Electron-based player (copies UI from Web version, implements native functions)
-  * TunerHammer Files Server (CLI version)
+  * TunerHammer File Server (CLI version)
   * TunerHammer Web App Server
   * TunerHammer API
 - **Android**
