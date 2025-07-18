@@ -26,8 +26,8 @@ TunerHammer will support these platforms:
   * Native player for Macs
   * TunerHammer File Server
 - **Linux**
-  * Electron-based player (copies UI from Web version, implements native functions)
-  * Probably native players for GNOME and KDE design guidelines
+  * Native player following GNOME design guidelines
+  * Native player following KDE design guidelines
   * TunerHammer File Server (CLI version)
   * TunerHammer Web App Server
   * TunerHammer API
