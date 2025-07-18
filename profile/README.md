@@ -4,7 +4,7 @@ Your own musical service.
 
 TunerHammer is a project aiming to provide you a way to host your own musical infrastructure.
 
-The idea is that you host your music files on your PC, then you're able to play music from all of your devices through a central web server.
+The idea is that you host your music files on your PC, then you're able to play music from all of your devices through a central Web server.
 
 This lets you manage the playback across all your devices, just like Spotify.
 
@@ -54,9 +54,11 @@ Then it lets you play the music, letting you manage the library: create your pla
 
 It also syncs the playing status across all the devices connected to the same server. It might sound familiar if you use Spotify: if you're listening to a track on your phone and opening the app on your PC, you'll be able to control the playback on your phone from the PC.
 
+Every native player builds upon TunerHammer Client Core. It's a shared library in C++ that does all the communication with the TunerHammer server.
+
 ### TunerHammer API
 
-This is the central TunerHammer server. All Players and File / Web App Servers must connect to it.
+This is the central TunerHammer server. All players, the Web App Server and all File Servers must connect to it.
 
 It doesn't actually serve any music files itself: it just centralizes all the communications in one place.
 
@@ -66,10 +68,10 @@ This is a program that you run on your PC (or NAS) which must be connected to th
 
 Once connected to the API, it hosts a folder to be accessible from the API.
 
-For example, the File Server is running on your computer which has a folder with all your music. The File Server program connects to the API. TunerHammer Player also connects to the API and is now able to play music from your computer.
+For example, a File Server is running on your computer which has a folder with all your music. The File Server program connects to the API. TunerHammer Player also connects to the API and is now able to play music from your computer.
 
 ### TunerHammer Web App Server
 
 This is a server that runs the Web version of the TunerHammer Player. It also must be connected to the TunerHammer API.
 
-Once connected to the API, it serves a Web App which has all the functions of a native TunerHammer Player.
+Once connected to the API, it serves a Web App accessible via any browser and which has all the functions of a native TunerHammer Player.
