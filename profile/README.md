@@ -21,10 +21,10 @@ TunerHammer will support these platforms:
   * Online player accessible anywhere
 - **Windows**
   * Native player for Windows PCs
-  * TunerHammer File Server for Windows PCs
+  * TunerHammer File Server for Windows
 - **macOS**
   * Native player for Macs
-  * TunerHammer File Server for Macs
+  * TunerHammer File Server for macOS
 - **Linux**
   * Native player following GNOME design guidelines
   * Native player following KDE design guidelines
