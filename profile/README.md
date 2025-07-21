@@ -21,14 +21,14 @@ TunerHammer will support these platforms:
   * Online player accessible anywhere
 - **Windows**
   * Native player for Windows PCs
-  * TunerHammer File Server
+  * TunerHammer File Server for Windows PCs
 - **macOS**
   * Native player for Macs
-  * TunerHammer File Server
+  * TunerHammer File Server for Macs
 - **Linux**
   * Native player following GNOME design guidelines
   * Native player following KDE design guidelines
-  * TunerHammer File Server (CLI version)
+  * TunerHammer File Server for CLI
   * TunerHammer Web App Server
   * TunerHammer API
 - **Android**
@@ -38,7 +38,7 @@ TunerHammer will support these platforms:
 - **Android TV**
   * Native player for Android TV boxes
 
-More platforms might be added later. Implementing TunerHammer Player on any platform must be easy: you just call TunerHammer Client Core functions from the bare music player interface.
+More platforms might be added later. Implementing TunerHammer Player on any platform must be easy: you just call TunerHammer Client Core functions from the bare music player interface while also implementing the synchronization mechanisms.
 
 ## Parts
 
